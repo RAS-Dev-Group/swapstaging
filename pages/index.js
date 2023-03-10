@@ -12,11 +12,6 @@ import SwapForm from "../components/SwapForm";
 import RateSetModal from "../components/RateSetModal";
 import "antd/dist/antd.css";
 
-const options = [
-  { label: 'Swap', value: 'swap' },
-  { label: 'Liquidity', value: 'liquidity' },
-];
-
 export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const { user } = useMoralis();
