@@ -9,10 +9,10 @@ import Web3ReactManager from "../components/Web3ReactManager";
 import getLibrary from "../utils/getLibrary";
 
 import store from "../state";
-import ApplicationUpdater from '../state/application/updater'
-import ListsUpdater from '../state/lists/updater'
-import MulticallUpdater from '../state/multicall/updater'
-import TransactionUpdater from '../state/transactions/updater'
+import ApplicationUpdater from '@/state/application/updater'
+import ListsUpdater from '@/state/lists/updater'
+import MulticallUpdater from '@/state/multicall/updater'
+import TransactionUpdater from '@/state/transactions/updater'
 
 import "antd/dist/antd.css";
 import "../styles/globals.css";

@@ -3,13 +3,13 @@ import { Currency, Pair } from '@pancakeswap-libs/sdk'
 import { Button, ChevronDownIcon, Text } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { darken } from 'polished'
-import { useCurrencyBalance } from '../../state/wallet/hooks'
+import { useCurrencyBalance } from '@/state/wallet/hooks'
 import CurrencySearchModal from '../SearchModal/CurrencySearchModal'
 import CurrencyLogo from '../CurrencyLogo'
 import DoubleCurrencyLogo from '../DoubleLogo'
 import { RowBetween } from '../Row'
 import { Input as NumericalInput } from '../NumericalInput'
-import { useActiveWeb3React } from '../../hooks'
+import { useActiveWeb3React } from '@/hooks'
 
 const InputRow = styled.div<{ selected: boolean }>`
   display: flex;

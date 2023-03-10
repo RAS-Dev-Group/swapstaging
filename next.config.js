@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const path = require('path');
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -22,7 +24,8 @@ module.exports = {
       use: ['@svgr/webpack']
     })
 
+    config.resolve.alias['@'] = path.join(__dirname, '/');
+
     return config;
   }
-
 }

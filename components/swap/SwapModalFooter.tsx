@@ -3,13 +3,13 @@ import React, { useMemo, useState } from 'react'
 import { Text, Button } from '@pancakeswap-libs/uikit'
 import { Repeat } from 'react-feather'
 
-import { Field } from '../../state/swap/actions'
+import { Field } from '@/state/swap/actions'
 import {
   computeSlippageAdjustedAmounts,
   computeTradePriceBreakdown,
   formatExecutionPrice,
   warningSeverity,
-} from '../../utils/prices'
+} from '@/utils/prices'
 import { AutoColumn } from '../Column'
 import QuestionHelper from '../QuestionHelper'
 import { AutoRow, RowBetween, RowFixed } from '../Row'

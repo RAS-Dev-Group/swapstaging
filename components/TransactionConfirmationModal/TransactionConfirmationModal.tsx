@@ -1,6 +1,6 @@
 import React from 'react'
 import Modal from '../Modal'
-import { useActiveWeb3React } from '../../hooks'
+import { useActiveWeb3React } from '@/hooks'
 import ConfirmationPendingContent from './ConfirmationPendingContent'
 import TransactionSubmittedContent from './TransactionSubmittedContent'
 

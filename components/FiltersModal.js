@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useMoralis } from "react-moralis";
-import Cross from '../assets/cross.svg';
+import Cross from '@/assets/cross.svg';
 import { ChevronUp, ChevronDown } from "react-bootstrap-icons"
 import RangeSlider from "react-range-slider-input";
 import "react-range-slider-input/dist/style.css";

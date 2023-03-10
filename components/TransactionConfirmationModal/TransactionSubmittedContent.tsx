@@ -4,7 +4,7 @@ import { ThemeContext } from 'styled-components'
 import { Button, LinkExternal } from '@pancakeswap-libs/uikit'
 import { ArrowUpCircle } from 'react-feather'
 import { AutoColumn } from '../Column'
-import { getBscScanLink } from '../../utils'
+import { getBscScanLink } from '@/utils'
 import { Wrapper, Section, ConfirmedIcon, ContentHeader } from './helpers'
 
 type TransactionSubmittedContentProps = {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useMoralis } from "react-moralis";
-import Cross from '../assets/cross.svg';
+import Cross from '@/assets/cross.svg';
 import { Modal } from "antd"
 import { ExclamationCircleOutlined } from "@ant-design/icons"
 

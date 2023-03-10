@@ -1,10 +1,10 @@
 import { Currency, CurrencyAmount, ETHER, JSBI, Token, TokenAmount } from '@pancakeswap-libs/sdk'
 import { useMemo } from 'react'
 import ERC20_INTERFACE from '../../constants/abis/erc20'
-import { useAllTokens } from '../../hooks/Tokens'
-import { useActiveWeb3React } from '../../hooks'
-import { useMulticallContract } from '../../hooks/useContract'
-import { isAddress } from '../../utils'
+import { useAllTokens } from '@/hooks/Tokens'
+import { useActiveWeb3React } from '@/hooks'
+import { useMulticallContract } from '@/hooks/useContract'
+import { isAddress } from '@/utils'
 import { useSingleContractMultipleData, useMultipleContractSingleData } from '../multicall/hooks'
 
 /**

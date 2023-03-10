@@ -1,10 +1,10 @@
 import React from 'react'
 import { Currency, Percent, Price } from '@pancakeswap-libs/sdk'
 import { Text } from '@pancakeswap-libs/uikit'
-import { AutoColumn } from '../../components/Column'
-import { AutoRow } from '../../components/Row'
+import { AutoColumn } from '@/components/Column'
+import { AutoRow } from '@/components/Row'
 import { ONE_BIPS } from '../../constants'
-import { Field } from '../../state/mint/actions'
+import { Field } from '@/state/mint/actions'
 
 export function PoolPriceBar({
   currencies,

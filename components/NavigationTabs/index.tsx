@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
 import { ArrowLeft } from 'react-feather'
-import { RowBetween } from '../../components/Row'
-import QuestionHelper from '../../components/QuestionHelper'
+import { RowBetween } from '@/components/Row'
+import QuestionHelper from '@/components/QuestionHelper'
 
 const Tabs = styled.div`
   display: flex;

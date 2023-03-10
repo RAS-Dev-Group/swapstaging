@@ -1,8 +1,8 @@
 import { Currency, ETHER, Token } from '@pancakeswap-libs/sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
-import useHttpLocations from '../../hooks/useHttpLocations'
-import { WrappedTokenInfo } from '../../state/lists/hooks'
+import useHttpLocations from '@/hooks/useHttpLocations'
+import { WrappedTokenInfo } from '@/state/lists/hooks'
 import Logo from '../Logo'
 import CoinLogo from '../pancake/CoinLogo'
 

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useRef, useState } from 'react';
-import Chevron from '../assets/chevron.svg';
-import useOutsideClick from '../hooks/useOutsideClick';
+import Chevron from '@/assets/chevron.svg';
+import useOutsideClick from '@/hooks/useOutsideClick';
 
 export default function CurrencyDropdown({ options, selectedId, onChange, className }) {
   const ref = useRef(null);

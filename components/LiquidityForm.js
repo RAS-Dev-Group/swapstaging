@@ -6,11 +6,11 @@ import Logo from "../assets/Logoemblem.svg"
 import { ethers } from "ethers";
 import { useRouter } from "next/router";
 
-import BEP40TokenABI from '../contracts/abi/BEP40Token.json';
-import IPancakeSwapPairABI from '../contracts/abi/IPancakeSwapPair.json';
-import IUniswapV2Router02ABI from '../contracts/abi/IUniswapV2Router02.json';
-import PancakeFactoryABI from '../contracts/abi/PancakeFactory.json';
-import YLTABI from '../contracts/abi/YLT.json';
+import BEP40TokenABI from '@/contracts/abi/BEP40Token.json';
+import IPancakeSwapPairABI from '@/contracts/abi/IPancakeSwapPair.json';
+import IUniswapV2Router02ABI from '@/contracts/abi/IUniswapV2Router02.json';
+import PancakeFactoryABI from '@/contracts/abi/PancakeFactory.json';
+import YLTABI from '@/contracts/abi/YLT.json';
 
 const YLTtokenAddress = process.env.NEXT_PUBLIC_YLTtokenAddress;
 const USDTtokenAddress = process.env.NEXT_PUBLIC_USDTtokenAddress;

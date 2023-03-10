@@ -3,10 +3,10 @@ import { useMoralis } from "react-moralis";
 import Image from 'next/image';
 import { Web3Auth } from "@web3auth/web3auth";
 import { Router } from "next/router";
-import userDefaultAvatar from '../assets/user.png';
-import Chevron from '../assets/chevron.svg';
+import userDefaultAvatar from '@/assets/user.png';
+import Chevron from '@/assets/chevron.svg';
 import useOutsideClick from "../hooks/useOutsideClick";
-import Bell from '../assets/bell.svg';
+import Bell from '@/assets/bell.svg';
 
 const isBrowser = typeof window !== 'undefined';
 const BtnLogout = function ({ handleLogout }) {
@@ -108,7 +108,7 @@ export default function Account({ setIsLoading, openEventsModal, onAuth }) {
     return (
       <div ref={ref}
         className="relative flex items-center justify-center">
-        <button onClick={toggleUserMenu}>
+        <button onClick={toggleUserMenu} className="flex">
           <Image src={
             profilePicture ?? userDefaultAvatar
           }
