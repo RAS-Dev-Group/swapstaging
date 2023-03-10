@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { HelpCircle } from 'react-feather'
+import Image from 'next/image'
 
 const BAD_SRCS: { [tokenAddress: string]: true } = {}
 
@@ -20,7 +21,7 @@ export default function Logo({ srcs, alt, ...rest }: LogoProps) {
 
   if (src) {
     return (
-      <img
+      <Image
         {...rest}
         alt={alt}
         src={src}

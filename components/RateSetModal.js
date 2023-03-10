@@ -4,6 +4,7 @@ import { useMoralis } from "react-moralis";
 import Cross from '@/assets/cross.svg';
 import { Modal } from "antd"
 import { ExclamationCircleOutlined } from "@ant-design/icons"
+import Image from 'next/image';
 
 
 export default function RateSetModal({ onClose }) {
@@ -57,12 +58,12 @@ export default function RateSetModal({ onClose }) {
           <div className="stripe-rate-display">
             <div className="cus_d_flex">
               <div className="cus_d_flex_item_5">
-                <img src="/assets/brand_token.svg" />
+                <Image src="/assets/brand_token.svg" alt="token" />
                 <span className="pl-5 cus_font">{rate}</span>
               </div>
               <div className='cus_d_flex_item_2'><span className='pl-5 cus_font'>=</span></div>
               <div className='cus_d_flex_item_5'>
-                <img src="/assets/brand_usd.svg" />
+                <Image src="/assets/brand_usd.svg" alt="brand" />
                 <span className='pl-5 cus_font'>1</span>
               </div>
             </div>
